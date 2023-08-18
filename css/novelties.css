@@ -1,0 +1,29 @@
+.novelties {
+    margin-bottom: 150px;
+}
+
+.novelties__title {
+    margin-bottom: 50px;
+}
+
+.novelties__body {
+    display: flex;
+    column-gap: 191px;
+}
+
+.novelties__content {
+    flex-basis: 560px;
+}
+
+.novelties__text {
+    margin-bottom: 30px;
+}
+
+.novelties__text--bold {
+    font-weight: 700;
+}
+
+.novelties__img {
+    flex-basis: 350px;
+    
+}

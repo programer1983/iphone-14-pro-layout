@@ -1,6 +1,7 @@
 @import "reset.css";
 @import "header.css";
 @import "range.css";
+@import "novelties.css";
 
 
 body {
@@ -14,5 +15,12 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0px 15px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #717171;
+    text-align: center;
 }
 
