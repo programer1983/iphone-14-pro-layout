@@ -1,0 +1,19 @@
+body {
+    font-weight: 400;
+    color: #0A0A0A;
+    font-family: 'Inter', sans-serif; 
+    line-height: 1.4;
+ }
+ 
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 0px 15px;
+ }
+ 
+ .title {
+     font-size: 32px;
+     font-weight: 700;
+     color: #717171;
+     text-align: center;
+ }
