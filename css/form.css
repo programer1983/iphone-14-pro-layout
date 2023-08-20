@@ -7,7 +7,7 @@
 }
 
 .form__content {
-    flex-basis: 600px;
+    width: 600px;
     background-color: #574B63;
     padding: 137px 94px 138px 94px;
 }
@@ -76,7 +76,7 @@
 }
 
 .form__image {
-    flex-basis: 600px;
+    width: 600px;
     display: flex;
     align-self: stretch;
 
