@@ -21,14 +21,24 @@
 .header__link {
     color: #717171;
     font-size: 24px;
+    cursor: pointer;
 }
 
+.header__link:hover {
+    text-decoration: underline;
+}
+    
 .header__logo {
     width: 39px;
     height: 48px;
     margin-right: 352px;
 }
 
-.header__phone{
+.header__phone {
     font-size: 24px;
+    cursor: pointer;
+}
+
+.header__phone:hover {
+    text-decoration: underline;
 }
