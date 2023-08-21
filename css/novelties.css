@@ -25,5 +25,30 @@
 
 .novelties__img {
     flex-basis: 350px;
-    
+}
+
+@media (max-width: 1100px) {
+    .novelties__body {
+        column-gap: 90px;
+    } 
+}
+
+
+@media (max-width: 900px) {
+    .novelties__body {
+        flex-direction: column;
+    }
+
+    .novelties__img {
+        width: 100%;
+
+    }
+
+    .novelties__content {
+        flex-basis: 0px;
+    }
+
+    .novelties__img img {
+        width: 100%;
+    } 
 }
