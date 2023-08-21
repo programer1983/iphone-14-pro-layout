@@ -37,5 +37,42 @@
     font-weight: 700;
     color: #FFFFFF;
 }
+
+@media (max-width: 1000px){
+    .range__title {
+        font-size: 50px;
+    }
+
+    .range__img {
+        padding: 0px 30px;
+    }
+
+    .range__img img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px){
+    .range__title {
+        font-size: 45px;
+    }
+
+    .range__button {
+        padding: 15px 75px;
+        text-align: center;
+        width: 300px;
+    }
+}
+
+@media (max-width: 700px){
+    .range__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px){
+    .range__button {
+        width: 100%;
+    }
+}
    
-    
