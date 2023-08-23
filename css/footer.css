@@ -34,3 +34,17 @@
 .footer__phone:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 730px){
+    .footer__inner{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    .footer__logo {
+        order: -1;
+        margin: 0;
+        padding-left: 15px;
+    }
+}

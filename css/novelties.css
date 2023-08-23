@@ -35,13 +35,16 @@
 
 
 @media (max-width: 900px) {
+    .novelties {
+        margin-bottom: 80px;
+    }
+    
     .novelties__body {
         flex-direction: column;
     }
 
     .novelties__img {
         width: 100%;
-
     }
 
     .novelties__content {

@@ -1,13 +1,11 @@
-.form {
-
-}
+.form {}
 
 .form__body {
     display: flex;
 }
 
 .form__content {
-    width: 600px;
+    flex-basis: 600px;
     background-color: #574B63;
     padding: 137px 94px 138px 94px;
 }
@@ -82,9 +80,13 @@
 }
 
 .form__image {
-    width: 600px;
+    flex-basis: 600px;
     display: flex;
     align-self: stretch;
+}
 
+
+@media (max-width: 1300px) { 
+    .form__body {}
 }
     
